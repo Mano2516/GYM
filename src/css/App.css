@@ -1,0 +1,6 @@
+* {
+  box-sizing: border-box;
+}
+.App {
+  max-width: 100vw;
+}

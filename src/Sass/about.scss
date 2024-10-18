@@ -1,0 +1,189 @@
+.heading {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 30px;
+  .home-page {
+    cursor: pointer;
+  }
+}
+.about {
+  width: 100%;
+  padding-top: 40px;
+  // height: 100vh;
+  .container {
+    width: 86%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding-bottom: 70px;
+    .img-container {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      max-width: 100%;
+      align-items: center;
+      gap: 40px;
+      .image {
+        max-width: 100%;
+        max-height: 100%;
+        display: block;
+      }
+      .txt {
+        display: flex;
+        gap: 20px;
+        flex-direction: column;
+        .getBtn {
+          width: 100%;
+          // height: 50px;
+          border-radius: 4px;
+          padding: 10px 30px;
+          background-color: #d01919;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          font-size: 17px;
+          color: #fff;
+          letter-spacing: 1px;
+          border: none;
+          cursor: pointer;
+          transition: 0.3s;
+          text-transform: uppercase;
+          &:hover {
+            background-color: #ffce25;
+            color: #000;
+          }
+        }
+        .links {
+          display: flex;
+          gap: 10px;
+          justify-content: space-between;
+          align-items: center;
+          // width: 100%;
+          flex-direction: row;
+
+          .link {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background-color: #262627;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 20px;
+            color: #fff;
+            font-weight: 600;
+            cursor: pointer;
+            &.face {
+              transition: 0.3s;
+              &:hover {
+                background-color: rgb(60, 60, 214);
+              }
+            }
+            &.twitter {
+              transition: 0.3s;
+              &:hover {
+                background-color: skyblue;
+              }
+            }
+            &.google {
+              transition: 0.3s;
+              &:hover {
+                background-color: rgb(209, 158, 63);
+              }
+            }
+          }
+        }
+        .con {
+          display: flex;
+          gap: 12px;
+          align-items: center;
+          .ico {
+            font-size: 24px;
+            color: #141445;
+          }
+          .lin {
+            text-decoration: none;
+            color: #000;
+            &.mail {
+              color: rgb(111, 189, 219);
+            }
+            &:hover {
+              color: #d01919;
+            }
+          }
+          span {
+            display: block;
+          }
+        }
+      }
+    }
+  }
+  .skills {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+    .heading {
+      text-align: left;
+      display: flex;
+      // justify-content: flex-start;
+      position: relative;
+      width: fit-content;
+
+      .name {
+        font-size: 50px;
+        font-weight: bolder;
+      }
+      .title {
+        font-size: 16px;
+        margin-top: -20px;
+        color: #262627;
+        margin-left: -200px;
+      }
+      &::after {
+        position: absolute;
+        content: "";
+        width: 40px;
+        height: 4px;
+        bottom: 0px;
+        left: 6px;
+        background-color: #d01919;
+        transform: translateX(0);
+      }
+    }
+    .info {
+      .p1,
+      .p3 {
+        font-size: 14px;
+        color: #141445;
+        font-weight: 500;
+      }
+      .p2 {
+        font-size: 24px;
+        font-weight: 700;
+      }
+    }
+    .progressContainer {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+      .prog {
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+        .data {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          font-weight: bold;
+          text-transform: uppercase;
+        }
+      }
+    }
+  }
+}

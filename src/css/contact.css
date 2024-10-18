@@ -1,0 +1,146 @@
+.content {
+  width: 100%;
+  padding-bottom: 70px;
+}
+.content .container {
+  width: 80%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 100px;
+}
+.content .container .text {
+  width: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 50px;
+}
+.content .container .text .head {
+  font-size: 24px;
+  font-weight: bolder;
+  position: relative;
+}
+.content .container .text .head::after {
+  content: "";
+  width: 40px;
+  height: 4px;
+  background-color: #d01919;
+  position: absolute;
+  bottom: -12px;
+  left: 0px;
+}
+.content .container .text .parag {
+  font-weight: 500;
+}
+.content .container .text .place .pName {
+  font-size: 17px;
+  font-weight: 600;
+  color: #d01919;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+.content .container .text .place .pInfo {
+  margin-bottom: 3px;
+  font-size: 16px;
+}
+.content .container .text .place .pInfo .hover:hover {
+  color: #d01919;
+  cursor: pointer;
+}
+.content .container .form {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 50px;
+}
+.content .container .form .head {
+  font-size: 24px;
+  font-weight: bolder;
+  position: relative;
+}
+.content .container .form .head::after {
+  content: "";
+  width: 40px;
+  height: 4px;
+  background-color: #d01919;
+  position: absolute;
+  bottom: -12px;
+  left: 0px;
+}
+.content .container .form .NM {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.content .container .form .NM .in {
+  width: 380px;
+  height: 70px;
+}
+.content .container .form .NM .in .input:hover {
+  border-color: #d01919;
+}
+.content .container .form .NM .in .input:focus {
+  border-color: #d01919;
+}
+.content .container .form .txtArea .in .input:hover {
+  border-color: #d01919;
+}
+.content .container .form .txtArea .in .input:focus {
+  border-color: #d01919;
+}
+.content .container .form .btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 15px;
+}
+.content .container .form .btn .but {
+  padding: 12px 24px;
+  cursor: pointer;
+  border-radius: 4px;
+  font-weight: 600;
+  border: none;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  width: 100px;
+  height: 50px;
+}
+.content .container .form .btn .but.send {
+  background-color: #d01919;
+  color: #fff;
+}
+.content .container .form .btn .but.send:hover {
+  background-color: #ffce25;
+  color: #000;
+}
+.content .container .form .btn .but.reset {
+  background-color: #dddada;
+}
+.content .container .form .btn .but.reset:hover {
+  background-color: #161515;
+  color: #fff;
+}

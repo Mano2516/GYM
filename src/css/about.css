@@ -1,0 +1,270 @@
+.heading {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 30px;
+}
+.heading .home-page {
+  cursor: pointer;
+}
+
+.about {
+  width: 100%;
+  padding-top: 40px;
+}
+.about .container {
+  width: 86%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding-bottom: 70px;
+}
+.about .container .img-container {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  max-width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 40px;
+}
+.about .container .img-container .image {
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+}
+.about .container .img-container .txt {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 20px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.about .container .img-container .txt .getBtn {
+  width: 100%;
+  border-radius: 4px;
+  padding: 10px 30px;
+  background-color: #d01919;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 17px;
+  color: #fff;
+  letter-spacing: 1px;
+  border: none;
+  cursor: pointer;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  text-transform: uppercase;
+}
+.about .container .img-container .txt .getBtn:hover {
+  background-color: #ffce25;
+  color: #000;
+}
+.about .container .img-container .txt .links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+.about .container .img-container .txt .links .link {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #262627;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 20px;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+}
+.about .container .img-container .txt .links .link.face {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.about .container .img-container .txt .links .link.face:hover {
+  background-color: rgb(60, 60, 214);
+}
+.about .container .img-container .txt .links .link.twitter {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.about .container .img-container .txt .links .link.twitter:hover {
+  background-color: skyblue;
+}
+.about .container .img-container .txt .links .link.google {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.about .container .img-container .txt .links .link.google:hover {
+  background-color: rgb(209, 158, 63);
+}
+.about .container .img-container .txt .con {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 12px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.about .container .img-container .txt .con .ico {
+  font-size: 24px;
+  color: #141445;
+}
+.about .container .img-container .txt .con .lin {
+  text-decoration: none;
+  color: #000;
+}
+.about .container .img-container .txt .con .lin.mail {
+  color: rgb(111, 189, 219);
+}
+.about .container .img-container .txt .con .lin:hover {
+  color: #d01919;
+}
+.about .container .img-container .txt .con span {
+  display: block;
+}
+.about .skills {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 40px;
+}
+.about .skills .heading {
+  text-align: left;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.about .skills .heading .name {
+  font-size: 50px;
+  font-weight: bolder;
+}
+.about .skills .heading .title {
+  font-size: 16px;
+  margin-top: -20px;
+  color: #262627;
+  margin-left: -200px;
+}
+.about .skills .heading::after {
+  position: absolute;
+  content: "";
+  width: 40px;
+  height: 4px;
+  bottom: 0px;
+  left: 6px;
+  background-color: #d01919;
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+}
+.about .skills .info .p1,
+.about .skills .info .p3 {
+  font-size: 14px;
+  color: #141445;
+  font-weight: 500;
+}
+.about .skills .info .p2 {
+  font-size: 24px;
+  font-weight: 700;
+}
+.about .skills .progressContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 30px;
+}
+.about .skills .progressContainer .prog {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 6px;
+}
+.about .skills .progressContainer .prog .data {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-weight: bold;
+  text-transform: uppercase;
+}
